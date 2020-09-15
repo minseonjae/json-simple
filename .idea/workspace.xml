@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f74e304-24f8-4f80-b4ed-0709ab45923c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/seonjae/json/Json.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seonjae/json/JsonArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seonjae/json/JsonValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seonjae/json/aware/JsonAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seonjae/json/aware/JsonStreamAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seonjae/json/file/JsonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seonjae/json/file/JsonFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seonjae/json/parser/JsonParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seonjae/json/parser/exception/ParseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seonjae/json/parser/obj/ContainerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seonjae/json/parser/obj/ContentHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seonjae/json/parser/obj/Yylex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seonjae/json/parser/obj/Yytoken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seonjae/json/web/HttpJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seonjae/json/web/HttpsJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seonjae/json/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seonjae/json/JsonArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/JsonArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seonjae/json/JsonValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/JsonValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seonjae/json/aware/JsonAware.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/aware/JsonAware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seonjae/json/aware/JsonStreamAware.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/aware/JsonStreamAware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seonjae/json/file/JsonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/file/JsonConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seonjae/json/file/JsonFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/file/JsonFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seonjae/json/parser/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/parser/JsonParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seonjae/json/parser/exception/ParseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/parser/exception/ParseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seonjae/json/parser/obj/ContainerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/parser/obj/ContainerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seonjae/json/parser/obj/ContentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/parser/obj/ContentHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seonjae/json/parser/obj/Yylex.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/parser/obj/Yylex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seonjae/json/parser/obj/Yytoken.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/parser/obj/Yytoken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seonjae/json/web/HttpJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/web/HttpJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seonjae/json/web/HttpsJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/web/HttpsJson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +34,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../file/lombok.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="K:\programming\project\IntelliJ\json-simple\Json" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="K:\programming\project\IntelliJ\json-simple" />
     </key>
@@ -57,21 +61,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600139866309</updated>
-      <workItem from="1600139868960" duration="43000" />
+      <workItem from="1600139868960" duration="157000" />
     </task>
+    <task id="LOCAL-00001" summary="json">
+      <created>1600139973114</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600139973114</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="json" />
+    <option name="LAST_COMMIT_MESSAGE" value="json" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2567" y="-724" key="FileChooserDialogImpl" timestamp="1600139908451">
+    <state x="2475" y="-871" key="CommitChangelistDialog2" timestamp="1600139972307">
       <screen x="1920" y="-1079" width="2560" height="1413" />
     </state>
-    <state x="2567" y="-724" key="FileChooserDialogImpl/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600139908451" />
-    <state x="2351" y="-890" key="SettingsEditor" timestamp="1600139910645">
+    <state x="2475" y="-871" key="CommitChangelistDialog2/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600139972307" />
+    <state x="2567" y="-724" key="FileChooserDialogImpl" timestamp="1600140022067">
       <screen x="1920" y="-1079" width="2560" height="1413" />
     </state>
-    <state x="2351" y="-890" key="SettingsEditor/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600139910645" />
+    <state x="2567" y="-724" key="FileChooserDialogImpl/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600140022067" />
+    <state x="2351" y="-890" key="SettingsEditor" timestamp="1600140024779">
+      <screen x="1920" y="-1079" width="2560" height="1413" />
+    </state>
+    <state x="2351" y="-890" key="SettingsEditor/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600140024779" />
+    <state x="2266" y="-855" key="new project wizard" timestamp="1600139991682">
+      <screen x="1920" y="-1079" width="2560" height="1413" />
+    </state>
+    <state x="2266" y="-855" key="new project wizard/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600139991682" />
   </component>
 </project>
