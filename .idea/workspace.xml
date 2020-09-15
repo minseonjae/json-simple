@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f74e304-24f8-4f80-b4ed-0709ab45923c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/seonjae/json/Json.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seonjae/json/JsonArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seonjae/json/JsonValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seonjae/json/aware/JsonAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seonjae/json/aware/JsonStreamAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seonjae/json/file/JsonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seonjae/json/file/JsonFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seonjae/json/parser/JsonParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seonjae/json/parser/exception/ParseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seonjae/json/parser/obj/ContainerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seonjae/json/parser/obj/ContentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seonjae/json/parser/obj/Yylex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seonjae/json/parser/obj/Yytoken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seonjae/json/web/HttpJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seonjae/json/web/HttpsJson.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hWvs6tWo8AYHYuj4UNriRDOWih" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../file/lombok.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="K:\programming\project\IntelliJ\json-simple" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f74e304-24f8-4f80-b4ed-0709ab45923c" name="Default Changelist" comment="" />
+      <created>1600139866309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600139866309</updated>
+      <workItem from="1600139868960" duration="43000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2567" y="-724" key="FileChooserDialogImpl" timestamp="1600139908451">
+      <screen x="1920" y="-1079" width="2560" height="1413" />
+    </state>
+    <state x="2567" y="-724" key="FileChooserDialogImpl/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600139908451" />
+    <state x="2351" y="-890" key="SettingsEditor" timestamp="1600139910645">
+      <screen x="1920" y="-1079" width="2560" height="1413" />
+    </state>
+    <state x="2351" y="-890" key="SettingsEditor/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600139910645" />
+  </component>
+</project>
