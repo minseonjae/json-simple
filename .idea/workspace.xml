@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f74e304-24f8-4f80-b4ed-0709ab45923c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/seonjae/json/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/Json.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seonjae/json/JsonArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/JsonArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seonjae/json/JsonValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/JsonValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seonjae/json/aware/JsonAware.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/aware/JsonAware.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seonjae/json/aware/JsonStreamAware.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/aware/JsonStreamAware.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seonjae/json/file/JsonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/file/JsonConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seonjae/json/file/JsonFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/file/JsonFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seonjae/json/parser/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/parser/JsonParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seonjae/json/parser/exception/ParseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/parser/exception/ParseException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seonjae/json/parser/obj/ContainerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/parser/obj/ContainerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seonjae/json/parser/obj/ContentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/parser/obj/ContentHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seonjae/json/parser/obj/Yylex.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/parser/obj/Yylex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seonjae/json/parser/obj/Yytoken.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/parser/obj/Yytoken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seonjae/json/web/HttpJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/web/HttpJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seonjae/json/web/HttpsJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/web/HttpsJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-simple.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +25,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../file/lombok.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -61,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600139866309</updated>
-      <workItem from="1600139868960" duration="157000" />
+      <workItem from="1600139868960" duration="264000" />
     </task>
     <task id="LOCAL-00001" summary="json">
       <created>1600139973114</created>
@@ -70,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600139973114</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="json">
+      <created>1600140055567</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600140055567</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,18 +75,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="json" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2475" y="-871" key="CommitChangelistDialog2" timestamp="1600139972307">
+    <state x="2475" y="-871" key="CommitChangelistDialog2" timestamp="1600140054906">
       <screen x="1920" y="-1079" width="2560" height="1413" />
     </state>
-    <state x="2475" y="-871" key="CommitChangelistDialog2/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600139972307" />
+    <state x="2475" y="-871" key="CommitChangelistDialog2/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600140054906" />
     <state x="2567" y="-724" key="FileChooserDialogImpl" timestamp="1600140022067">
       <screen x="1920" y="-1079" width="2560" height="1413" />
     </state>
     <state x="2567" y="-724" key="FileChooserDialogImpl/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600140022067" />
-    <state x="2351" y="-890" key="SettingsEditor" timestamp="1600140024779">
+    <state x="2351" y="-890" key="SettingsEditor" timestamp="1600140132331">
       <screen x="1920" y="-1079" width="2560" height="1413" />
     </state>
-    <state x="2351" y="-890" key="SettingsEditor/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600140024779" />
+    <state x="2351" y="-890" key="SettingsEditor/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600140132331" />
+    <state x="2463" y="-732" key="Vcs.Push.Dialog.v2" timestamp="1600140111897">
+      <screen x="1920" y="-1079" width="2560" height="1413" />
+    </state>
+    <state x="2463" y="-732" key="Vcs.Push.Dialog.v2/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600140111897" />
     <state x="2266" y="-855" key="new project wizard" timestamp="1600139991682">
       <screen x="1920" y="-1079" width="2560" height="1413" />
     </state>
