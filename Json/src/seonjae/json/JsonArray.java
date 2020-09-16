@@ -1,9 +1,5 @@
 package seonjae.json;
 
-import lombok.SneakyThrows;
-import seonjae.json.aware.JsonAware;
-import seonjae.json.aware.JsonStreamAware;
-
 import java.io.StringWriter;
 import java.io.Writer;
 import java.util.ArrayList;
@@ -11,17 +7,283 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 
+import lombok.SneakyThrows;
+import seonjae.json.aware.JsonAware;
+import seonjae.json.aware.JsonStreamAware;
+
 public class JsonArray extends ArrayList<Object> implements JsonAware, JsonStreamAware {
-	
+
 	private static final long serialVersionUID = 3957988303675231981L;
-	
-	public JsonArray(){
-		super();
+
+	public JsonArray(){ super(); }
+	public JsonArray(Collection<?> c) { super(c); }
+
+
+	@SneakyThrows(Exception.class)
+	public static void writeJsonString(byte[] array, Writer out) {
+		if(array == null) out.write("null");
+		else if(array.length == 0) out.write("[]");
+		else {
+			out.write("[");
+			JsonValue.writeJsonString(array[0], out);
+
+			for (int i = 1; i < array.length; i++) {
+				out.write(",");
+				JsonValue.writeJsonString(array[i], out);
+			}
+
+			out.write("]");
+		}
 	}
-	public JsonArray(Collection<?> c) {
-		super(c);
+	@SneakyThrows(Exception.class)
+	public static void writeJsonString(byte[] array, Writer writer, int count) {
+		if (array == null) writer.write("null");
+		else if (array.length == 0) writer.write("[]");
+		else {
+			StringWriter space = new StringWriter();
+			for (int i = 0; i < count; i++) space.write("\t");
+
+			writer.write("[\r\n\t" + space.toString());
+			for (int i = 0; i < array.length; i++) {
+				if (i != 0) writer.write(",\r\n\t" + space.toString());
+
+				JsonValue.writeJsonString(array[i], writer, count + 1);
+			}
+			writer.write("\r\n" + space.toString() + "]");
+		}
 	}
-	
+	@SneakyThrows(Exception.class)
+	public static void writeJsonString(short[] array, Writer out) {
+		if(array == null) out.write("null");
+		else if(array.length == 0) out.write("[]");
+		else {
+			out.write("[");
+			JsonValue.writeJsonString(array[0], out);
+
+			for (int i = 1; i < array.length; i++) {
+				out.write(",");
+				JsonValue.writeJsonString(array[i], out);
+			}
+
+			out.write("]");
+		}
+	}
+	@SneakyThrows(Exception.class)
+	public static void writeJsonString(short[] array, Writer writer, int count) {
+		if (array == null) writer.write("null");
+		else if (array.length == 0) writer.write("[]");
+		else {
+			StringWriter space = new StringWriter();
+			for (int i = 0; i < count; i++) space.write("\t");
+
+			writer.write("[\r\n\t" + space.toString());
+			for (int i = 0; i < array.length; i++) {
+				if (i != 0) writer.write(",\r\n\t" + space.toString());
+
+				JsonValue.writeJsonString(array[i], writer, count + 1);
+			}
+			writer.write("\r\n" + space.toString() + "]");
+		}
+	}
+	@SneakyThrows(Exception.class)
+	public static void writeJsonString(int[] array, Writer out) {
+		if(array == null) out.write("null");
+		else if(array.length == 0) out.write("[]");
+		else {
+			out.write("[");
+			JsonValue.writeJsonString(array[0], out);
+
+			for (int i = 1; i < array.length; i++) {
+				out.write(",");
+				JsonValue.writeJsonString(array[i], out);
+			}
+
+			out.write("]");
+		}
+	}
+	@SneakyThrows(Exception.class)
+	public static void writeJsonString(int[] array, Writer writer, int count) {
+		if (array == null) writer.write("null");
+		else if (array.length == 0) writer.write("[]");
+		else {
+			StringWriter space = new StringWriter();
+			for (int i = 0; i < count; i++) space.write("\t");
+
+			writer.write("[\r\n\t" + space.toString());
+			for (int i = 0; i < array.length; i++) {
+				if (i != 0) writer.write(",\r\n\t" + space.toString());
+
+				JsonValue.writeJsonString(array[i], writer, count + 1);
+			}
+			writer.write("\r\n" + space.toString() + "]");
+		}
+	}
+	@SneakyThrows(Exception.class)
+	public static void writeJsonString(long[] array, Writer out) {
+		if(array == null) out.write("null");
+		else if(array.length == 0) out.write("[]");
+		else {
+			out.write("[");
+			JsonValue.writeJsonString(array[0], out);
+
+			for (int i = 1; i < array.length; i++) {
+				out.write(",");
+				JsonValue.writeJsonString(array[i], out);
+			}
+
+			out.write("]");
+		}
+	}
+	@SneakyThrows(Exception.class)
+	public static void writeJsonString(long[] array, Writer writer, int count) {
+		if (array == null) writer.write("null");
+		else if (array.length == 0) writer.write("[]");
+		else {
+			StringWriter space = new StringWriter();
+			for (int i = 0; i < count; i++) space.write("\t");
+
+			writer.write("[\r\n\t" + space.toString());
+			for (int i = 0; i < array.length; i++) {
+				if (i != 0) writer.write(",\r\n\t" + space.toString());
+
+				JsonValue.writeJsonString(array[i], writer, count + 1);
+			}
+			writer.write("\r\n" + space.toString() + "]");
+		}
+	}
+	@SneakyThrows(Exception.class)
+	public static void writeJsonString(float[] array, Writer out) {
+		if(array == null) out.write("null");
+		else if(array.length == 0) out.write("[]");
+		else {
+			out.write("[");
+			JsonValue.writeJsonString(array[0], out);
+
+			for (int i = 1; i < array.length; i++) {
+				out.write(",");
+				JsonValue.writeJsonString(array[i], out);
+			}
+
+			out.write("]");
+		}
+	}
+	@SneakyThrows(Exception.class)
+	public static void writeJsonString(float[] array, Writer writer, int count) {
+		if (array == null) writer.write("null");
+		else if (array.length == 0) writer.write("[]");
+		else {
+			StringWriter space = new StringWriter();
+			for (int i = 0; i < count; i++) space.write("\t");
+
+			writer.write("[\r\n\t" + space.toString());
+			for (int i = 0; i < array.length; i++) {
+				if (i != 0) writer.write(",\r\n\t" + space.toString());
+
+				JsonValue.writeJsonString(array[i], writer, count + 1);
+			}
+			writer.write("\r\n" + space.toString() + "]");
+		}
+	}
+	@SneakyThrows(Exception.class)
+	public static void writeJsonString(double[] array, Writer out) {
+		if(array == null) out.write("null");
+		else if(array.length == 0) out.write("[]");
+		else {
+			out.write("[");
+			JsonValue.writeJsonString(array[0], out);
+
+			for (int i = 1; i < array.length; i++) {
+				out.write(",");
+				JsonValue.writeJsonString(array[i], out);
+			}
+
+			out.write("]");
+		}
+	}
+	@SneakyThrows(Exception.class)
+	public static void writeJsonString(double[] array, Writer writer, int count) {
+		if (array == null) writer.write("null");
+		else if (array.length == 0) writer.write("[]");
+		else {
+			StringWriter space = new StringWriter();
+			for (int i = 0; i < count; i++) space.write("\t");
+
+			writer.write("[\r\n\t" + space.toString());
+			for (int i = 0; i < array.length; i++) {
+				if (i != 0) writer.write(",\r\n\t" + space.toString());
+
+				JsonValue.writeJsonString(array[i], writer, count + 1);
+			}
+			writer.write("\r\n" + space.toString() + "]");
+		}
+	}
+	@SneakyThrows(Exception.class)
+	public static void writeJsonString(boolean[] array, Writer out) {
+		if(array == null) out.write("null");
+		else if(array.length == 0) out.write("[]");
+		else {
+			out.write("[");
+			JsonValue.writeJsonString(array[0], out);
+
+			for (int i = 1; i < array.length; i++) {
+				out.write(",");
+				JsonValue.writeJsonString(array[i], out);
+			}
+
+			out.write("]");
+		}
+	}
+	@SneakyThrows(Exception.class)
+	public static void writeJsonString(boolean[] array, Writer writer, int count) {
+		if (array == null) writer.write("null");
+		else if (array.length == 0) writer.write("[]");
+		else {
+			StringWriter space = new StringWriter();
+			for (int i = 0; i < count; i++) space.write("\t");
+
+			writer.write("[\r\n\t" + space.toString());
+			for (int i = 0; i < array.length; i++) {
+				if (i != 0) writer.write(",\r\n\t" + space.toString());
+
+				JsonValue.writeJsonString(array[i], writer, count + 1);
+			}
+			writer.write("\r\n" + space.toString() + "]");
+		}
+	}
+	@SneakyThrows(Exception.class)
+	public static void writeJsonString(char[] array, Writer out) {
+		if(array == null) out.write("null");
+		else if(array.length == 0) out.write("[]");
+		else {
+			out.write("[");
+			JsonValue.writeJsonString(array[0], out);
+
+			for (int i = 1; i < array.length; i++) {
+				out.write(",");
+				JsonValue.writeJsonString(array[i], out);
+			}
+
+			out.write("]");
+		}
+	}
+	@SneakyThrows(Exception.class)
+	public static void writeJsonString(char[] array, Writer writer, int count) {
+		if (array == null) writer.write("null");
+		else if (array.length == 0) writer.write("[]");
+		else {
+			StringWriter space = new StringWriter();
+			for (int i = 0; i < count; i++) space.write("\t");
+
+			writer.write("[\r\n\t" + space.toString());
+			for (int i = 0; i < array.length; i++) {
+				if (i != 0) writer.write(",\r\n\t" + space.toString());
+
+				JsonValue.writeJsonString(array[i], writer, count + 1);
+			}
+			writer.write("\r\n" + space.toString() + "]");
+		}
+	}
+
 	@SneakyThrows(Exception.class)
 	public static void writeJsonString(Object[] array, Writer out) {
 		if(array == null) out.write("null");
@@ -48,9 +310,9 @@ public class JsonArray extends ArrayList<Object> implements JsonAware, JsonStrea
 
 			writer.write("[\r\n\t" + space.toString());
 			for (int i = 0; i < array.length; i++) {
-	            if (i != 0) writer.write(",\r\n\t" + space.toString());
+				if (i != 0) writer.write(",\r\n\t" + space.toString());
 
-				JsonValue.writeJsonString(array[0], writer, count + 1);
+				JsonValue.writeJsonString(array[i], writer, count + 1);
 			}
 			writer.write("\r\n" + space.toString() + "]");
 		}
@@ -65,8 +327,8 @@ public class JsonArray extends ArrayList<Object> implements JsonAware, JsonStrea
 
 			writer.write('[');
 			while (iterator.hasNext()) {
-	            if (first) first = false;
-	            else writer.write(',');
+				if (first) first = false;
+				else writer.write(',');
 
 				Object value = iterator.next();
 				if(value == null) {
@@ -85,15 +347,15 @@ public class JsonArray extends ArrayList<Object> implements JsonAware, JsonStrea
 		else {
 			boolean first = true;
 			Iterator<?> iterator = collection.iterator();
-			
+
 			StringWriter space = new StringWriter();
 			for (int i = 0; i < count; i++) space.write("\t");
-			
+
 			writer.write("[\r\n\t" + space.toString());
 			while (iterator.hasNext()) {
-	            if (first) first = false;
-	            else writer.write(",\r\n\t" + space.toString());
-	            
+				if (first) first = false;
+				else writer.write(",\r\n\t" + space.toString());
+
 				Object value = iterator.next();
 				JsonValue.writeJsonString(value, writer, count + 1);
 			}
@@ -106,7 +368,7 @@ public class JsonArray extends ArrayList<Object> implements JsonAware, JsonStrea
 	public void writeJsonString(Writer writer, int count) {
 		writeJsonString(this, writer, count);
 	}
-	
+
 	@SneakyThrows(Exception.class)
 	public static String toJsonString(List<?> list) {
 		StringWriter writer = new StringWriter();
@@ -141,14 +403,14 @@ public class JsonArray extends ArrayList<Object> implements JsonAware, JsonStrea
 		writeJsonString(collection, writer, count);
 		return writer.toString();
 	}
-	
+
 	public String toJsonString() {
 		return toJsonString(this);
 	}
 	public String toSpaceJsonString() {
 		return toSpaceJsonString(this, 0);
 	}
-	
+
 	public String toString() {
 		return toJsonString();
 	}
