@@ -10,6 +10,7 @@ import java.io.StringWriter;
 import java.io.Writer;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Json extends LinkedHashMap<String, Object> implements Map<String, Object>, JsonAware, JsonStreamAware {
@@ -80,6 +81,127 @@ public class Json extends LinkedHashMap<String, Object> implements Map<String, O
 			writer.write("\r\n" + space.toString() + "}");
 		}
 	}
+
+	public Json getJson(String key) {
+		Object o = get(key);
+		return o != null ? (Json) o : null;
+	}
+	public String getString(String key) {
+		Object o = get(key);
+		return o != null ? get(key).toString() : null;
+	}
+	public Boolean getBoolean(String key) {
+		Object o = get(key);
+		return o != null ? Boolean.parseBoolean(getString(key)) : null;
+	}
+	public Long getLong(String key) {
+		try {
+			String value = getString(key);
+			return value != null ? Long.parseLong(getString(key)) : null;
+		} catch (NumberFormatException e) {
+			return null;
+		}
+	}
+	public Integer getInt(String key) {
+		try {
+			String value = getString(key);
+			return value != null ? Integer.parseInt(getString(key)) : null;
+		} catch (NumberFormatException e) {
+			return null;
+		}
+	}
+	public Double getDouble(String key) {
+		try {
+			String value = getString(key);
+			return value != null ? Double.parseDouble(getString(key)) : null;
+		} catch (NumberFormatException e) {
+			return null;
+		}
+	}
+	public Float getFloat(String key) {
+		try {
+			String value = getString(key);
+			return value != null ? Float.parseFloat(getString(key)) : null;
+		} catch (NumberFormatException e) {
+			return null;
+		}
+	}
+	public Short getShort(String key) {
+		try {
+			String value = getString(key);
+			return value != null ? Short.parseShort(getString(key)) : null;
+		} catch (NumberFormatException e) {
+			return null;
+		}
+	}
+
+	@SuppressWarnings("unchecked")
+	public List<Object> getList(String key) {
+		try {
+			Object o = get(key);
+			if (o == null) return null;
+			return (List<Object>) o;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return null;
+		}
+	}
+	@SuppressWarnings("unchecked")
+	public List<String> getStringList(String key) {
+		try {
+			Object o = get(key);
+			if (o == null) return null;
+			if (o instanceof List<?>) return (List<String>) get(key);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+	@SuppressWarnings("unchecked")
+	public List<Integer> getIntegerList(String key) {
+		try {
+			Object o = get(key);
+			if (o == null) return null;
+			if (o instanceof List<?>) return (List<Integer>) get(key);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+	@SuppressWarnings("unchecked")
+	public List<Long> getLongList(String key) {
+		try {
+			Object o = get(key);
+			if (o == null) return null;
+			if (o instanceof List<?>) return (List<Long>) get(key);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+	@SuppressWarnings("unchecked")
+	public List<Double> getDoubleList(String key) {
+		try {
+			Object o = get(key);
+			if (o == null) return null;
+			if (o instanceof List<?>) return (List<Double>) get(key);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+	@SuppressWarnings("unchecked")
+	public List<Float> getFloatList(String key) {
+		try {
+			Object o = get(key);
+			if (o == null) return null;
+			if (o instanceof List<?>) return (List<Float>) get(key);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
 	public String toJsonString() {
 		return toJsonString(this);
 	}

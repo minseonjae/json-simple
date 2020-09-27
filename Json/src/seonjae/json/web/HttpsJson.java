@@ -42,7 +42,6 @@ public class HttpsJson extends HttpJson {
 		String line;
 		while ((line = br.readLine()) != null) writer.write(line);
 		
-
 		Object load = Json.parse(writer.toString());
 		
 		if (!(load instanceof Json)) throw new Exception("http content is not json");
