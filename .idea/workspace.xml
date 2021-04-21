@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f74e304-24f8-4f80-b4ed-0709ab45923c" name="Default Changelist" comment="">
+    <list default="true" id="7f74e304-24f8-4f80-b4ed-0709ab45923c" name="Default Changelist" comment="json">
+      <change afterPath="$PROJECT_DIR$/.lib/.lib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.lib/src/lombok.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lombok.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lombok.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json-simple.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Json/src/seonjae/json/JsonArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Json/src/seonjae/json/JsonArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,31 +17,54 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1hWvs6tWo8AYHYuj4UNriRDOWih" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../file/lombok.jar!/" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.lib/src" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.lib/src" />
+      <recent name="K:\programming\project\IntelliJ\json-simple" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="K:\programming\project\IntelliJ\json-simple\Json" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="K:\programming\project\IntelliJ\json-simple" />
-    </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -49,6 +76,10 @@
       <option name="presentableId" value="Default" />
       <updated>1600139866309</updated>
       <workItem from="1600139868960" duration="264000" />
+      <workItem from="1604992163925" duration="10000" />
+      <workItem from="1618994943888" duration="138000" />
+      <workItem from="1618995949913" duration="261000" />
+      <workItem from="1618996215086" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="json">
       <created>1600139973114</created>
@@ -68,32 +99,22 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="json" />
     <option name="LAST_COMMIT_MESSAGE" value="json" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2475" y="-871" key="CommitChangelistDialog2" timestamp="1600140054906">
-      <screen x="1920" y="-1079" width="2560" height="1413" />
-    </state>
-    <state x="2475" y="-871" key="CommitChangelistDialog2/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600140054906" />
-    <state x="2567" y="-724" key="FileChooserDialogImpl" timestamp="1600140022067">
-      <screen x="1920" y="-1079" width="2560" height="1413" />
-    </state>
-    <state x="2567" y="-724" key="FileChooserDialogImpl/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600140022067" />
-    <state x="2351" y="-890" key="SettingsEditor" timestamp="1600140132331">
-      <screen x="1920" y="-1079" width="2560" height="1413" />
-    </state>
-    <state x="2351" y="-890" key="SettingsEditor/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600140132331" />
-    <state x="2463" y="-732" key="Vcs.Push.Dialog.v2" timestamp="1600140111897">
-      <screen x="1920" y="-1079" width="2560" height="1413" />
-    </state>
-    <state x="2463" y="-732" key="Vcs.Push.Dialog.v2/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600140111897" />
-    <state x="2266" y="-855" key="new project wizard" timestamp="1600139991682">
-      <screen x="1920" y="-1079" width="2560" height="1413" />
-    </state>
-    <state x="2266" y="-855" key="new project wizard/1920.-1079.2560.1413/0.0.1920.1040@1920.-1079.2560.1413" timestamp="1600139991682" />
   </component>
 </project>
